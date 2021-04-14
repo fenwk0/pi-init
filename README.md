@@ -4,6 +4,7 @@ Some scripts to initialise a pi
 See 
 - https://www.raspberrypi.org/documentation/configuration/wireless/headless.md
 - https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md
+- https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent
 
 ## Notes for Mac
 
