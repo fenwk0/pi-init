@@ -23,5 +23,5 @@ See
 `ssh-add -K ~/.ssh/id_ed25519.pub`
 
 ### copy the Mac Public Key to the PI, so the PI can trust it. 
-`cat ~/.ssh/id_rsa.pub | ssh pi@192.168.1.*** 'mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys'`
+`cat ~/.ssh/id_ed25519.pub | ssh pi@192.168.1.*** 'mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys'`
 
