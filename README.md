@@ -5,6 +5,6 @@ See https://www.raspberrypi.org/documentation/configuration/wireless/headless.md
 
 ## For Mac
 
-cp wpa_supplicant.conf /Volumes/boot
+'''cp wpa_supplicant.conf /Volumes/boot'''
 
 vi /Volumes/boot/ssh
