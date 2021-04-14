@@ -20,7 +20,7 @@ See
 `pbcopy < ~/.ssh/id_ed25519.pub`
 
 ### set the newly generated key as the Mac's default
-`ssh-add -K ~/.ssh/id_ed25519.pub`
+`ssh-add -K ~/.ssh/id_ed25519`
 
 ### copy the Mac Public Key to the PI, so the PI can trust it. 
 `cat ~/.ssh/id_ed25519.pub | ssh pi@192.168.1.*** 'mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys'`
