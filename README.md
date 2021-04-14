@@ -1,7 +1,9 @@
 # pi-init
 Some scripts to initialise a pi
 
-See https://www.raspberrypi.org/documentation/configuration/wireless/headless.md
+See 
+- https://www.raspberrypi.org/documentation/configuration/wireless/headless.md
+- https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md
 
 ## Notes for Mac
 
