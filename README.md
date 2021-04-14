@@ -13,8 +13,11 @@ See
 ### add an ssh file to the boot disk on SSD, remember to insert a single space
 `vi /Volumes/boot/ssh`
 
-### create an ssh key pair for the mac, this is compatible with Github
+### create an ssh key pair for the mac, 
 `ssh-keygen -t ed25519 -C karl.fenwick@gmail.com`
+
+### this is compatible with Github, use this to copy to clipboard
+`pbcopy < ~/.ssh/id_ed25519.pub`
 
 ### set the newly generated key as the Mac's default
 `ssh-add -K ~/.ssh/id_rsa`
