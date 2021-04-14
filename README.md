@@ -7,21 +7,32 @@ See
 
 ## Notes for Mac
 
-### copy the sup file to the boot disk on SSD
+#### copy the sup file to the boot disk on SSD
 `cp wpa_supplicant.conf /Volumes/boot`
 
-### add an ssh file to the boot disk on SSD, remember to insert a single space
+#### add an ssh file to the boot disk on SSD, remember to insert a single space
 `vi /Volumes/boot/ssh`
 
-### create an ssh key pair for the mac, 
+#### create an ssh key pair for the mac, 
 `ssh-keygen -t ed25519 -C karl.fenwick@gmail.com`
 
-### this is compatible with Github, use this to copy to clipboard
+#### this is compatible with Github, use this to copy to clipboard
 `pbcopy < ~/.ssh/id_ed25519.pub`
 
-### set the newly generated key as the Mac's default
+#### set the newly generated key as the Mac's default
 `ssh-add -K ~/.ssh/id_ed25519`
 
-### copy the Mac Public Key to the PI, so the PI can trust it. 
+#### copy the Mac Public Key to the PI, so the PI can trust it. 
 `ssh-copy-id pi@192.168.1.***`
 
+## Notes for Pi
+
+#### update and fix and missing apt dependancies
+
+`sudo apt-get update --fix-missing`
+
+#### install git
+
+`sudo apt-get install git`
+
+####
