@@ -36,5 +36,16 @@ For more accurate and detailed instructions see:
 
 `sudo apt-get install git`
 
+#### set my git identity
+
+`git config --global user.email "karl.fenwick@gmail.com"
+`git config --global user.name "fenwk0"`
+
 #### try a pull
 `git pull`
+
+#### try a push after editing README
+`git push`
+
+
+
