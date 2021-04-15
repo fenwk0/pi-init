@@ -45,7 +45,6 @@ For more accurate and detailed instructions see:
 `git pull`
 
 #### try a push after editing README
-`git push`
-
-
-
+`git add .'
+`git commit -m="updated README"'
+`git push'
