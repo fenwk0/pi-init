@@ -36,4 +36,5 @@ For more accurate and detailed instructions see:
 
 `sudo apt-get install git`
 
-####
+#### try a pull
+`git pull`
