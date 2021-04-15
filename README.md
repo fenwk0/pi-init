@@ -21,7 +21,8 @@ For more accurate and detailed instructions see:
 `pbcopy < ~/.ssh/id_ed25519.pub`
 
 #### set the newly generated key as the Mac's default
-`ssh-add -K ~/.ssh/id_ed25519`
+`eval `ssh-agent -s``
+`ssh-add`
 
 #### copy the Mac Public Key to the PI, so the PI can trust it. 
 `ssh-copy-id pi@192.168.1.***`
