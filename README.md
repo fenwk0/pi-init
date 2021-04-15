@@ -14,7 +14,7 @@ For more accurate and detailed instructions see:
 #### add an ssh file to the boot disk on SSD, remember to insert a single space
 `vi /Volumes/boot/ssh`
 
-#### create an ssh key pair for the mac, 
+#### Create an ssh key pair for the mac that can also be used for Github 
 `ssh-keygen -t ed25519 -C karl.fenwick@gmail.com`
 
 #### this is compatible with Github, use this to copy to clipboard
