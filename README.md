@@ -26,7 +26,7 @@ For more accurate and detailed instructions see:
 #### copy the Mac Public Key to the PI, so the PI can trust it. 
 `ssh-copy-id pi@192.168.1.***`
 
-## Notes for Pi
+## ![Notes for Pi] (https://images.app.goo.gl/MQEfo8beVQ8jx5At5)
 
 #### update and fix and missing apt dependancies
 
