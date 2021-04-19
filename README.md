@@ -21,8 +21,7 @@ For more accurate and detailed instructions see:
 `pbcopy < ~/.ssh/id_ed25519.pub`
 
 #### set the newly generated key as the Mac's default
-`eval `ssh-agent -s``
-`ssh-add`
+`ssh-add -K ~/.ssh/id_ed25519`
 
 #### copy the Mac Public Key to the PI, so the PI can trust it. 
 `ssh-copy-id pi@192.168.1.***`
@@ -32,6 +31,17 @@ For more accurate and detailed instructions see:
 #### update and fix and missing apt dependancies
 
 `sudo apt-get update --fix-missing`
+
+
+#### Create an ssh key pair for the mac that can also be used for Github 
+
+`ssh-keygen -t ed25519 -C karl.fenwick@gmail.com`
+
+
+#### set the newly generated key as the PI's default
+
+`eval `ssh-agent -s``
+`ssh-add`
 
 #### install git
 
