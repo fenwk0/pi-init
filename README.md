@@ -39,7 +39,8 @@ For more accurate and detailed instructions see:
 
 #### set my git identity
 
-`git config --global user.email "karl.fenwick@gmail.com"'
+`git config --global user.email "karl.fenwick@gmail.com"`
+
 `git config --global user.name "fenwk0"`
 
 #### try a pull
