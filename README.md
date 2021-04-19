@@ -27,7 +27,7 @@ For more accurate and detailed instructions see:
 `ssh-copy-id pi@192.168.1.***`
 
 [![Notes for Pi](https://images.app.goo.gl/MQEfo8beVQ8jx5At5)]
-[![Foo](http://www.google.com.au/images/nav_logo7.png)](http://google.com.au/)
+[![Foo](https://images.app.goo.gl/MQEfo8beVQ8jx5At5)](http://google.com.au/)
 
 #### update and fix and missing apt dependancies
 
