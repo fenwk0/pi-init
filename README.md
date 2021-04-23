@@ -6,7 +6,7 @@ For more accurate and detailed instructions see:
 - https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md
 - https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent
 
-## Notes for Mac
+# Mac Config
 
 #### copy the sup file to the boot disk on SSD
 `cp wpa_supplicant.conf /Volumes/boot`
@@ -26,13 +26,10 @@ For more accurate and detailed instructions see:
 #### copy the Mac Public Key to the PI, so the PI can trust it. 
 `ssh-copy-id pi@192.168.1.***`
 
-[![Notes for Pi](https://images.app.goo.gl/MQEfo8beVQ8jx5At5)]
-[![Foo](https://images.app.goo.gl/MQEfo8beVQ8jx5At5)](http://google.com.au/)
-
+# Raspberry Pi Config
 #### update and fix and missing apt dependancies
 
 `sudo apt-get update --fix-missing`
-
 
 #### Create an ssh key pair for the mac that can also be used for Github 
 
@@ -68,3 +65,8 @@ For more accurate and detailed instructions see:
 ### Add Java
 
 `sudo apt-get install openjdk-8-jdk`
+
+`java -version
+openjdk version "1.8.0_212"
+OpenJDK Runtime Environment (build 1.8.0_212-8u212-b01-1+rpi1-b01)
+OpenJDK Client VM (build 25.212-b01, mixed mode)`
