@@ -73,3 +73,5 @@ For more accurate and detailed instructions see:
 `OpenJDK Runtime Environment (build 1.8.0_212-8u212-b01-1+rpi1-b01)`
 
 `OpenJDK Client VM (build 25.212-b01, mixed mode)`
+
+<span style="color:blue">some *blue* text</span>
