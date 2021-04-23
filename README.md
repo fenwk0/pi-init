@@ -42,6 +42,7 @@ For more accurate and detailed instructions see:
 #### set the newly generated key as the PI's default
 
 `eval $(ssh-agent)`
+
 `ssh-add`
 
 #### install git
