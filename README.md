@@ -59,11 +59,12 @@ For more accurate and detailed instructions see:
 `git pull`
 
 #### try a push after editing README
-`git add .'
+`git add .`
 
-`git commit -m="updated README"'
+`git commit -m="updated README"`
 
 `git push'
 
 ### Add Java
-sudo apt-get install openjdk-8-jdk
+
+`sudo apt-get install openjdk-8-jdk`
