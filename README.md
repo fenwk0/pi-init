@@ -63,7 +63,7 @@ For more accurate and detailed instructions see:
 
 `git commit -m="updated README"`
 
-`git push'
+`git push`
 
 ### Add Java
 
