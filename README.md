@@ -60,5 +60,10 @@ For more accurate and detailed instructions see:
 
 #### try a push after editing README
 `git add .'
+
 `git commit -m="updated README"'
+
 `git push'
+
+### Add Java
+sudo apt-get install openjdk-8-jdk
