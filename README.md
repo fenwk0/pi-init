@@ -76,5 +76,6 @@ For more accurate and detailed instructions see:
 
 ### Git Setup
 
-git config --global user.email "karl.fenwick@gmail.com"
-git config --global user.name "Karl"
+`git config --global user.email "karl.fenwick@gmail.com"`
+
+`git config --global user.name "Karl"`
