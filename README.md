@@ -73,3 +73,8 @@ For more accurate and detailed instructions see:
 `> OpenJDK Runtime Environment (build 1.8.0_212-8u212-b01-1+rpi1-b01)`
 
 `> OpenJDK Client VM (build 25.212-b01, mixed mode)`
+
+### Git Setup
+
+git config --global user.email "karl.fenwick@gmail.com"
+git config --global user.name "Karl"
