@@ -1,10 +1,16 @@
-# pi-init
-Some scripts to initialise a pi
+![image info](./pictures/raspi.png)
+
+A set of bash scripts and config files to allow connection of a Pi to Mac's and GitHub
+<br>
+<br>
+<br>
+<br>
+
 
 For more accurate and detailed instructions see: 
-- https://www.raspberrypi.org/documentation/configuration/wireless/headless.md
-- https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md
-- https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent
+* [Raspberry Pi WPA](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md)
+* [Raspberry Pi Remote Access](https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md)
+* [GitHub SSH Access](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent)
 
 # Mac Config
 
