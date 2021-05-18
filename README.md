@@ -80,4 +80,8 @@ For more accurate and detailed instructions see:
 
 `git config --global user.name "Karl"`
 
+`git add .`
+
+`git commit -m "first commit"`
+
 `git push -u origin main`
