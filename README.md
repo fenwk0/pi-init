@@ -1,11 +1,6 @@
-![image info](./pictures/raspi.png)
+# pi-init
 
 A set of bash scripts and config files to allow connection of a Pi to Mac's and GitHub
-<br>
-<br>
-<br>
-<br>
-
 
 For more accurate and detailed instructions see: 
 * [Raspberry Pi WPA](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md)
@@ -33,7 +28,7 @@ For more accurate and detailed instructions see:
 `ssh-copy-id pi@192.168.1.***`
 
 # Raspberry Pi Config
-#### update and fix and missing apt dependancies
+#### update and fix and missing apt dependencies
 
 `sudo apt-get update --fix-missing`
 
